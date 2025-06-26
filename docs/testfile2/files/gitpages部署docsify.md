@@ -1,11 +1,11 @@
 # 部署步骤
 docsify文档网站参考教程，包括但不限于： 
 
-<a href="https://blog.csdn.net/gradfly/article/details/122739628"  alt="教程-CSDN" target="_blank">教程-CSDN</a>
+<a href="https://blog.csdn.net/qq_45173404/article/details/122683872"  alt="教程-CSDN" target="_blank">教程-CSDN</a>
 
 <a href="https://www.cnblogs.com/xhemj/p/How-to-Use-Docsify.html#%E5%AE%98%E6%96%B9%E8%AF%B4%E6%98%8E" alt="教程-博客" target="_blank">教程-博客</a>
 
-<a href=" https://docsify.js.org/#/zh-cn/" alt="docsify官方文档" target="_blank">docsify官方文档</a>（有可能打不开）
+<a href=" https://docsify.js.org/#/zh-cn/" alt="docsify官方文档" target="_blank">docsify官方文档</a>
 
 ## 1. 部署前提
 - 已安装Node.js环境 
@@ -42,7 +42,7 @@ docsify文档网站参考教程，包括但不限于：
   
 + 并在GitHub仓库设置中点击Pages，选择主分支main和docs文件夹，保存；
 
-  <img src="../images/image.png" alt="克隆仓库"  />
+  <img src="/testfile2/images/image.png" alt="克隆仓库"  />
 
 + 等待几分钟，即可访问https://你的GitHub账号名.github.io/你的仓库名/ 访问部署好的docsify网站。
 
