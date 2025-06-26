@@ -12,10 +12,12 @@
 <body>
   <div id="app"></div>
   <script>
+    const isLocal = window.location.hostname === 'localhost';   // 判断是否是本地环境
     window.$docsify = {
       name: '这里是帮助文档们',
+      basePath: isLocal ? '' : '/testdocsify-1234/',    // 部署到github pages的路径
       repo: '',  // 仓库链接
-      basePath: '/testdocsify-1234/docsify-learning/',  // 部署到github pages的路径
+      // basePath: '/testdocsify-1234/',  // 部署到github pages的路径
       loadSidebar: true,
       coverpage: true,
       search: {
