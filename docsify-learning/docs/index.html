@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+    <link rel="stylesheet" href=//cdn.jsdelivr.net/npm/docsify/themes/pure.css >
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '这里是帮助文档们',
+      repo: '',  // 仓库链接
+      basePath: '/',  // 部署到github pages的路径
+      loadSidebar: true,
+      coverpage: true,
+      search: {
+        placeholder: '点这里搜索文件',
+        noData: '没有找到匹配的文档',
+        paths: 'auto',
+        depth: 3, // 搜索深度，默认3
+        hideOtherSidebar: true, // 隐藏其他侧边栏
+        fuzzy: false, // 是否开启模糊搜索
+        ignoreCase: false, // 是否忽略大小写
+        highlight: true, // 是否高亮搜索结果
+        index: ['README.md'], // 主页文件
+      },
+      footer: {
+            copy: '',  
+            auth: '', 
+            pre: '<hr>',  // 正文和footer的分界线
+            style:'text-align: center;'  // 居中显示
+        },
+
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 搜索 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 图片放大 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 复制代码 -->
+   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- 分页 --> 
+   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!-- 表情 -->
+</body>
+</html>
