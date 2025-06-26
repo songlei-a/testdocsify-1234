@@ -9,7 +9,7 @@ docsify文档网站参考教程，包括但不限于：
 - 已安装Git环境   
 - 已有GitHub账号 
 - 本地已搭建并配置好docsify（方法详见上方教程），确保本地 docsify文档网站能正常运行。
-- 创建GitHub公开仓库，存放docsify项目文件夹（ 本文新建仓库名称为testdocsify-1234，不与账号内其他仓库命名冲突即可）
+- 创建GitHub**公开**仓库，存放docsify项目文件夹（ 本文新建仓库名称为testdocsify-1234，不与账号内其他仓库命名冲突即可）
 ## 2. 部署步骤
 + 本地docsify文件夹结构为：
 ```plaintext
