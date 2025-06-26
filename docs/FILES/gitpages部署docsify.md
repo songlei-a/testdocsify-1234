@@ -20,28 +20,27 @@ docsify文档网站参考教程，包括但不限于：
 + 更改docs/index.html文件内容：
 ```HTML
 <body>
-
   <div id="app"></div>
-
   <script>
-
     const isLocal = window.location.hostname === 'localhost';   // 判断是否是本地环境
-
     window.$docsify = {
-
       name: '文档网站命名',
-
       basePath: isLocal ? '' : '/你的仓库名/',    // 判断当前环境，动态设置basepath，让文档在不同的环境中都能正确加载和显示
       ......
-      ....
+      ......
      };
-
   </script>
 </body>
 ```
+
 + 克隆GitHub仓库testdocsify-1234到本地；
+  
 + 将docs文件夹整个复制到testdocsify-1234文件夹下,更改提交到仓库；
+  
 + 并在GitHub仓库设置中点击Pages，选择主分支main和docs文件夹，保存；
+
   <img src="../images/image.png" alt="克隆仓库"  />
+
 + 等待几分钟，即可访问https://你的GitHub账号名.github.io/你的仓库名/ 访问部署好的docsify网站。
+
 + 后期修改文件内容后，直接提交到GitHub仓库，GitHub会自动更新网站内容。
