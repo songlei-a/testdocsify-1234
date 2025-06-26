@@ -11,14 +11,10 @@
             "id": "b3313c9f62770098",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/gitpages部署docsify.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "gitpages部署docsify"
+              "title": "新标签页"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/gitpages部署docsify.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "gitpages部署docsify 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/gitpages部署docsify.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "gitpages部署docsify 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/gitpages部署docsify.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "gitpages部署docsify 的大纲"
+              "title": "大纲"
             }
           }
         ]
@@ -170,6 +163,15 @@
   },
   "active": "b3313c9f62770098",
   "lastOpenFiles": [
+    "docs/FILES/gitpages部署docsify.md",
+    "docs/FILES/excallidraw_share.md",
+    "docs/FILES/excalidraw_in_obsidian.md",
+    "docs/FILES",
+    "docs/gitpages部署docsify.md",
+    "docs/文档们/gitpages部署docsify.md",
+    "docs/文档们/excallidraw_share.md",
+    "docs/文档们/excalidraw_in_obsidian.md",
+    "docs/文档们",
     "docs/images/image.png",
     "docs/image.png"
   ]
