@@ -1,6 +1,6 @@
 <div style="background-color: white; width: 100vw; height: 100vh; margin: 0; padding: 0; overflow: hidden; position: relative;">
   <!-- 背景图片 -->
-  <img src="/bgimages/6.26傍晚.jpg" 
+  <img src="/bgimages/6.26dusk.jpg" 
        style="width: 100%; height: auto; display: block; 
               filter: blur(3px) brightness(0.8); 
               opacity: 0.9; /* 也可以用 opacity 微调透明感和亮度配合 3px越大越模糊，0.8降低亮度1是原图亮度*/" 
