@@ -42,7 +42,7 @@ docsify文档网站参考教程，包括但不限于：
   
 + 并在GitHub仓库设置中点击Pages，选择主分支main和docs文件夹，保存；
 
-  <img src="/testfile2/images/image.png" alt="克隆仓库"  />
+  <img src="testfile2/images/image.png" alt="克隆仓库"  />
 
 + 等待几分钟，即可访问https://你的GitHub账号名.github.io/你的仓库名/ 访问部署好的docsify网站。
 
