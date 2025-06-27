@@ -1,0 +1,7 @@
+/* custom.css */
+.nav>li>a {
+  color: #42B983 !important; /* 重要标记，确保覆盖默认样式 */
+}
+.nav>li>a:hover {
+  color: #42B983 !important;
+}

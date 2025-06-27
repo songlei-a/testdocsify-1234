@@ -7,11 +7,18 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="custom.css">  <!-- 自定义样式 -->
   <style>
       /* 强制覆盖，让页面始终可滚动 */
       body:not(.ready) {
         overflow: auto !important;   
       }
+      /* 假设找到导航栏实际类名是 .nav-header ，显示导航栏防被隐藏*/
+      .nav-header {
+        display: block !important; 
+        opacity: 1 !important;
+      }
+      
   </style>
 </head>
 <body>
@@ -22,8 +29,8 @@
       name: '这里是帮助文档们',
       basePath: isLocal ? '' : '/testdocsify-1234/',    // 判断当前环境，动态设置basepath，让文档在不同的环境中都能正确加载和显示
       repo: '',  // 仓库链接
-      // basePath: '/testdocsify-1234/',  // 部署到github pages的路径
       loadSidebar: true,
+      loadNavbar: true,    // 加载导航栏
       subMaxLevel: 2, // 侧边栏显示的最大层级
       coverpage: true,
       search: {
@@ -45,10 +52,9 @@
 
     }
   </script>
-  <!-- Docsify v4 -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- 核心库 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- 搜索 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
