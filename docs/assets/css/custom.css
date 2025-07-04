@@ -1,0 +1,34 @@
+/* custom.css */
+.nav>li>a {
+  color: #42B983 !important; /* 重要标记，确保覆盖默认样式 */
+}
+.nav>li>a:hover {
+  color: #42B983 !important;
+}
+/* 封面容器：让背景图仅覆盖封面区域 */
+.cover-container {
+  position: relative;
+  /* 确保封面占满视口，与原逻辑一致 */
+  width: 100vw; 
+  height: 100vh; 
+  overflow: hidden;
+}
+/* 封面背景图：限定在封面容器内，且不影响其他页面 */
+.cover-container img {
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  /* 替代原 inline style 的宽度高度，强制铺满封面 */
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  filter: blur(3px) brightness(0.8); 
+  opacity: 0.9;
+}
+/* 其他页面（如 home 页等）：清除可能继承的背景影响，可根据实际需求调整 */
+.markdown-section {
+  background: none !important; 
+  /* 如果页面内容区域需要白色背景，可改成：
+  background: #fff !important; 
+  */
+}
